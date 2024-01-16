@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 768px) {
+
+    body, html{
+        background-image: linear-gradient(to top,#127373,#5DA6A6);
+    }
+
+
+    section{
+        display: inlifene-block;
+        width: 80vh;
+        
+    }
+
+    #inicio{
+        width:100%;
+        margin-top: 20vh;
+    }
+
+
+
+
+    div#imagem {
+        
+        float: right;
+        width: 40%;
+        height: 100%;
+
+
+    }
+
+    
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 992px){
+    
+    section{
+        display: flex;
+        width: 100vh;
+        
+    }
+
+
+
+
+    div#imagem {
+        
+        float: left;
+        width: 80%;
+        height: 100%;
+
+
+    }
+}
+
+ 
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+    section{
+        display:flex ;
+        width: 120vh;
+        
+    }
+
+
+
+
+    div#imagem {
+        
+        float: right;
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+}

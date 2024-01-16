@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body, html {
+        background-image: linear-gradient(to top, #127373, #5DA6A6);
+    }
+
+    
+    section#login {
+        display: flex;
+        width: 70vw;
+    }
+    div#imagem {
+        
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        display: block;
+        text-align: center;
+        width: 70%;
+        padding: 10px;
+        
+       
+    
+    }
+
+    #formulario h1 {
+        margin-top: 60px;
+        margin-bottom: 15px;
+        text-align: center;
+
+        
+       
+    } 
+    #formulario > p {
+        font-size: 0.8em;
+        margin-top: 40px ;
+        margin-bottom: 35px ;
+        
+        
+    }
+    div.campo {
+        width: 90%;
+        margin: 7px auto ;
+
+    }
+     
+    
+    
+
+    
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    body, html {
+        background-image: linear-gradient(to top, #127373, #5DA6A6);
+    }
+    
+    section#login {
+        display: flex;
+        width: 60vw;
+    }
+    div#imagem {
+        
+        width: 40%;
+        height: 100%;
+    }
+   
+    div.campo {
+        width: 90%;
+        margin: 5px auto ;
+
+    }
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body, html {
+        background-image: linear-gradient(to top, #127373, #5DA6A6);
+    }
+
+    section#login {
+        
+        width: 1100px;
+    }
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #formulario {
+        
+        float: left;
+        
+        width: 50%;
+        padding: 10px;
+        
+       
+    
+    }
+    
+    
+
+    
+  }
