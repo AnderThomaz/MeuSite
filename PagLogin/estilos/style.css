@@ -82,7 +82,8 @@ i {
     display: inline-block;
     color: white;
     background-color: #127373;
-    padding: 10px 15px;
+    padding: 8px 12px;
+    border-radius: 10px 0px 0px 10px;
    
     
 }
@@ -94,7 +95,7 @@ i {
     font-size: 1em;
     width: calc(100% - (60px)) ;
     
-    height: 48px;
+    height: 45px;
     
     border: none;
     border-radius: 0px 10px 10px 0px;
@@ -113,7 +114,7 @@ form > input[type=submit]{
     border-radius: 10px;
     font-weight: bold;
 
-    margin: 30px auto 5px auto;
+    margin: 15px auto 5px auto;
 }
 
 
