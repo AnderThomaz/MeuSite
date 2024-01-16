@@ -75,36 +75,31 @@ div#imagem {
     
 } 
 
-div.campo {
-    display: block;
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    background-image: linear-gradient(90deg, #127373 50%, white);
-    margin: 6px 0px ;
-}
 
 
 
 i { 
     display: inline-block;
     color: white;
-    margin-top: 7px;
-    margin-left: 13px;
-    margin-right: 5px;
+    background-color: #127373;
+    padding: 10px 15px;
+   
+    
 }
 
-div input {
+
+
+.campo input {
     background-color: white;
     font-size: 1em;
-    width: calc(100% - (55px)) ;
+    width: calc(100% - (60px)) ;
     
-    height: 103%;
+    height: 48px;
     
     border: none;
     border-radius: 0px 10px 10px 0px;
-    padding: 8px;
-    transform: translateY(-4.5px);
+    padding-left: 8px;
+    transform: translateY(-3.5px);
 }
 
 form > input[type=submit]{
@@ -120,6 +115,7 @@ form > input[type=submit]{
 
     margin: 30px auto 5px auto;
 }
+
 
 form > input[type=submit]:hover{
     background: #5DA6A6;
